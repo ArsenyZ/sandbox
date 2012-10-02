@@ -25,7 +25,7 @@
     _dataSource = [[FlightsDataSource alloc] init];
     _tableView.dataSource = _dataSource;
     
-    [self loadDataFromUrl:@"Shttp://sevkin.ru/flights.xml"];
+    [self loadDataFromUrl:@"http://sevkin.ru/flights.xml"];
     
  
    
